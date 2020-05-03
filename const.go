@@ -59,4 +59,4 @@ func t1() {
 	fmt.Printf("面积为: %d", area)
 	println()
 	println(a, b, c)
-}
+}  
