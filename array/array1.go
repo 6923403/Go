@@ -10,12 +10,12 @@ func main() {
 	}
 
 	for j = 0; j < 10; j++ {
-		fmt.Print("n[%d] = %d \n", j, n[j])
+		fmt.Printf("n[%d] = %d \n", j, n[j])
 	}
 
 	var ccc float32
 	ccc = getAverage(n, 10);
-	fmt.Println("\n ccc = %f\n", ccc)
+	fmt.Printf("\n ccc = %f\n", ccc)
 }
 
 func getAverage(arr [10]int, size int) float32 {
